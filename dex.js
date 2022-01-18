@@ -1,6 +1,6 @@
 // connect to Moralis server
-const serverUrl = "https://wcjtndkinxkq.usemoralis.com:2053/server";
-const appId = "3lUp8kiZLADcjTHyCRbLgHA39mOqcHoWLFic9zbP";
+const serverUrl = "Your Moralis Server URL";
+const appId = "Your Moralis App ID";
 Moralis.start({ serverUrl, appId });
 
 Moralis.initPlugins().then( () => console.log("Plugins have been initialized"));
